@@ -15,7 +15,7 @@ Desarrollar la clase `join_vectors_t` que permita generar un arreglo dinámico o
 - 2 parámetros que permitan ingresar 2 lista de enteros (utilizar el tipo `std::initializer_list`).
 - 2 parámetros que permitan ingresar 2 lista de enteros (utilizar el tipo `std::vector`).  
 
-La clase deberá ser implementada utilizando arreglos dinámicos (punteros).  
+La clase deberá utilizar **arreglos dinámicos (punteros)** para el almacenamiento de los enteros.  
 
 El método que debe ser implementado es el método:  
 
