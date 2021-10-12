@@ -11,7 +11,7 @@
 
 ## Question #1 - clases, punteros y sobrecarga de operadores (10 points)
 
-Desarrollar la clase `join_vectors_t` que permita generar un arreglo dinámico ordenado a partir de 2 vectores. La clase contará con un constructor que cuente con el siguiente parámetro:
+Desarrollar la clase `join_vectors_t` que permita generar un arreglo dinámico ordenado de enteros a partir de 2 vectores. La clase contará con un constructor que cuente con el siguiente parámetro:
 - 2 parámetros que permitan ingresar 2 lista de enteros (utilizar el tipo `std::initializer_list`).
 - 2 parámetros que permitan ingresar 2 lista de enteros (utilizar el tipo `std::vector`).  
 
