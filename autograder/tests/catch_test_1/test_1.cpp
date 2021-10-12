@@ -15,11 +15,11 @@ static void test_1() {
 
     // imprimiendo los datos
     std::copy(jv1(), jv1()+jv1.size(), std::ostream_iterator<int>(std::cout," "));
-    std::cout << endl;
+    std::cout << std::endl;
 
     !jv1;
     std::copy(jv1(), jv1()+jv1.size(), std::ostream_iterator<int>(std::cout," "));
-    std::cout << endl;
+    std::cout << std::endl;
 }
 
 static void test_2() {
@@ -34,11 +34,11 @@ static void test_2() {
 
     // imprimiendo los datos
     std::copy(jv1(), jv1()+jv1.size(), std::ostream_iterator<int>(std::cout," "));
-    std::cout << endl;
+    std::cout << std::endl;
 
     !jv1;
     std::copy(jv1(), jv1()+jv1.size(), std::ostream_iterator<int>(std::cout," "));
-    std::cout << endl;
+    std::cout << std::endl;
 }
 
 TEST_CASE("Question #1_1") {

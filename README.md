@@ -29,12 +29,12 @@ Y las sobrecargas a los operadores:
 // genera un arreglo dinámico
 join_vectors_t jv1({1, 5, 3, 8, 2}, {4, 9, 7, 6, 10, 1});
 // imprimiendo los datos
-std::copy(jv1(), jv1()+jv1.size(), std::ostream_iterator<int>(cout," ")
-cout << endl;
+std::copy(jv1(), jv1()+jv1.size(), std::ostream_iterator<int>(std::cout," "));
+std::cout << std::endl;
 // 1 1 2 3 4 5 6 7 8 9 10
 !jv1;
-std::copy(jv1(), jv1()+jv1.size(), std::ostream_iterator<int>(cout," ")
-cout << endl;
+std::copy(jv1(), jv1()+jv1.size(), std::ostream_iterator<int>(std::cout," "));
+std::cout << std::endl;
 // 10 9 8 7 6 5 4 3 2 1 1
 ```
 
@@ -45,12 +45,12 @@ std::vector v1 = {1, 5, 3, 8, 2};
 std::vector v2 = {4, 9, 7, 6, 10, 1};
 join_vectors_t jv1(v1, v2);
 // imprimiendo los datos
-std::copy(jv1(), jv1()+jv1.size(), std::ostream_iterator<int>(cout," ")
-cout << endl;
-  // 1 1 2 3 4 5 6 7 8 9 10
+std::copy(jv1(), jv1()+jv1.size(), std::ostream_iterator<int>(std::cout," "));
+std::cout << std::endl;
+// 1 1 2 3 4 5 6 7 8 9 10
 !jv1;
-std::copy(jv1(), jv1()+jv1.size(), std::ostream_iterator<int>(cout," ")
-cout << endl;
+std::copy(jv1(), jv1()+jv1.size(), std::ostream_iterator<int>(std::cout," "));
+std::cout << std::endl;
 // 10 9 8 7 6 5 4 3 2 1 1
 ```
 
