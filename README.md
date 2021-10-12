@@ -85,8 +85,8 @@ std::forward_list<int> lst1 = {1, 2, -3, 1, 5, -3, -2, 5};
 auto f1 = get_zero_sum_ranges(lst1); 
 for (auto row: f1) {
 	for(auto value: row)
-		cout << value << " ";
-	cout << endl;
+		std::cout << value << " ";
+	std::cout << std::endl;
 }
 /*
  Se imprimirá:
