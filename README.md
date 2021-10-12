@@ -56,7 +56,7 @@ cout << endl;
 
 ## Question #2 - template de funciones y librería estándar (10 points)
   
-Escribir la función de template `get_zero_sum_ranges` que reciba como parámetro un contenedor genérico y que genere una colección de contenedores de valores consecutivos (sub-rangos) cuya suma sea cero.
+Escribir la función de template `get_zero_sum_ranges` que reciba como parámetro un contenedor genérico y que genere una colección de contenedores de valores consecutivos (sub-rangos) cuya suma sea cero.  
 La función debe retornar un contenedor, que por default será `std::vector`, pero que podría ser personalizado, este contenedor almacenará contenedores que serán del mismo tipo de contenedor del parámetro.
   
 **Use Case #1:**  
@@ -78,6 +78,7 @@ for (const auto& row: f1) {
 */
 ```
 
+**Use Case #2:**
 ```cpp
 std::forward_list<int> lst1 = {1, 2, -3, 1, 5, -3, -2, 5};
 auto f1 = get_zero_sum_ranges(lst1); 
