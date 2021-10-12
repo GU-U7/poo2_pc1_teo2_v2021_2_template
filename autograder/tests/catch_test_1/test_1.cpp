@@ -36,7 +36,11 @@ static void test_2() {
     std::copy(jv1(), jv1()+jv1.size(), std::ostream_iterator<int>(std::cout," "));
     std::cout << std::endl;
 
-    !jv1;
+    auto jv2 = jv1;
+    !jv2;
+    std::copy(jv2(), jv2()+jv2.size(), std::ostream_iterator<int>(std::cout," "));
+    std::cout << std::endl;
+
     std::copy(jv1(), jv1()+jv1.size(), std::ostream_iterator<int>(std::cout," "));
     std::cout << std::endl;
 }
