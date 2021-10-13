@@ -2,11 +2,11 @@
 // Created by rudri on 10/11/2020.
 //
 
-#include <iostream>
 #include "P2.h"
-using namespace std;
 
-
-void question_2(){
-
+bool es_cero(const vector<int>& _cont ){
+	int _ret=0;
+	for(int i: _cont) _ret+=i;
+	if(_ret==0) return true;
+	return false;
 }

@@ -1,4 +1,4 @@
-#include "p1.h"
+#include "P1.h"
 
 join_vectors_t::join_vectors_t(initializer_list<int> il1, initializer_list<int> il2):l1(distance(begin(il1),end(il1))), l2(distance(begin(il2), end(il2))){
 	arr = new int[l1+l2];
